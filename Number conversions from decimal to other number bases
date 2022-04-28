@@ -1,0 +1,4 @@
+dec=int(input())
+print("Decimal to Binary :",bin(dec))
+print("Decimal to Hexadecimal :",hex(dec))
+print("Decimal to Octal :",oct(dec))
