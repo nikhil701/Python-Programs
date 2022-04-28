@@ -1,0 +1,17 @@
+#Swap with using temp variable
+
+n=int(input())
+m=int(input())
+print("before swapping :",n,m)
+temp=n
+n=m
+m=temp
+print("after swapping",n,m)
+
+#without using temp variable
+
+n=int(input())
+m=int(input())
+n,m=m,n
+print("before swapping :",n,m)
+print("after swapping",n,m)
